@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Formbricks Survey</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Optional: Button to trigger the survey manually -->
+<button onclick="window.formbricks.open()">Take our survey</button>
+
+<script>
+  window.formbricks = {
+    config: {
+      environmentId: "cmbedhk9h022ert01ghy62slr", // 🔁 Replace with your actual environment ID
+      // Optional: add targeting config here
+    }
+  };
+</script>
+<script src="https://app.formbricks.com/script.js" defer></script>
+
+</body>
+</html>
